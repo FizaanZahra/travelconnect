@@ -1,5 +1,6 @@
 import Image from "next/image";
 import styles from "./page.module.css";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -35,6 +36,7 @@ export default function Home() {
             center.
           </p>
         </div>
+        <Link href="/about">About</Link>
         <div className={styles.ctas}>
           <a
             className={styles.primary}
